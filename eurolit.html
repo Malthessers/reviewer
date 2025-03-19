@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Literature Reviewer</title>
+    <style>
+        :root {
+            --primary-color: #3a506b;
+            --secondary-color: #5bc0be;
+            --accent-color: #e76f51;
+            --light-color: #f8f9fa;
+            --dark-color: #1c2541;
+            --highlight-color: #ffd166;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--light-color);
+            padding: 0;
+            margin: 0;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            font-weight: 300;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .period {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        
+        .period-header {
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .period-header h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        
+        .period-header .years {
+            font-weight: bold;
+            background-color: var(--dark-color);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .period-content {
+            padding: 1.5rem;
+        }
+        
+        .key-works {
+            background-color: #f8f8f8;
+            border-left: 4px solid var(--accent-color);
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .key-works h4 {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .highlight {
+            background-color: var(--highlight-color);
+            padding: 0 3px;
+            font-weight: 500;
+        }
+        
+        .facts {
+            background-color: #f0f7fa;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .facts h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .facts ul {
+            padding-left: 1.5rem;
+        }
+        
+        .facts li {
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--dark-color);
+            color: white;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .period-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .period-header .years {
+                margin-top: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>European Literature</h1>
+        <p class="subtitle">A Comprehensive Review of Literary Periods</p>
+    </header>
+    
+    <div class="container">
+        <div class="period">
+            <div class="period-header">
+                <h2>Classical Period</h2>
+                <span class="years">800 BCE - 500 CE</span>
+            </div>
+            <div class="period-content">
+                <p>The Classical Period saw the <span class="highlight">birth of tragedy and comedy in Greek theater</span>, with playwrights like Sophocles and Aristophanes, and the philosophical contributions of figures like Plato and Aristotle, which profoundly influenced Western thought. This period is characterized by its exploration of <span class="highlight">epic poetry, drama, and philosophy</span>.</p>
+                
+                <div class="key-works">
+                    <h4>Key Works</h4>
+                    <p><strong>Homer's The Iliad</strong> - An epic focusing on the final weeks of the Trojan War, highlighting the wrath of the Greek hero Achilles. Themes include <span class="highlight">honor, revenge, and fate</span>, culminating in Achilles' battle with Hector.</p>
+                    
+                    <p><strong>Homer's The Odyssey</strong> - Follows the Greek hero Odysseus on his long journey home after the Trojan War, covering his adventures with <span class="highlight">mythical creatures, gods, and monsters</span> as he struggles to return to Ithaca.</p>
+                    
+                    <p><strong>Virgil's Aeneid</strong> - A Latin epic poem following the journey of Aeneas, a Trojan hero after the fall of Troy, who is <span class="highlight">destined to found the city that will become Rome</span>.</p>
+                </div>
+                
+                <div class="facts">
+                    <h4>Important Facts</h4>
+                    <ul>
+                        <li>The <span class="highlight">earliest surviving European works</span> from this period are the classical Greek epics (Iliad and Odyssey), dating from the 8th century BCE.</li>
+                        <li>The <span class="highlight">oldest known intact book in Europe</span> is a copy of the Saint John Gospel.</li>
+                        <li><span class="highlight">Christianity became widespread</span> throughout the Roman Empire during the 3rd and 4th century, marking the beginning of religious morality in European literature.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="period">
+            <div class="period-header">
+                <h2>Middle Ages (Medieval Period)</h2>
+                <span class="years">5th century - late 15th century</span>
+            </div>
+            <div class="period-content">
+                <p>The fall of the Roman Empire in 467 CE marked a turning point in European literature. The <span class="highlight">Roman Catholic Church became the primary intellectual institution</span> of the medieval period. Many surviving texts are <span class="highlight">religious in nature</span>, including hymns, theological writings, and mystery plays depicting biblical stories.</p>
+                
+                <p>The Middle Ages also produced <span class="highlight">secular literature</span> in smaller quantities. Many texts, such as Y Gododdin and Beowulf, were based on myths or histories that had been <span class="highlight">recounted orally for centuries before being written down</span>. Christian scholars often altered these stories, adding Christian influences that would not have been present in the original oral traditions.</p>
+                
+                <div class="key-works">
+                    <h4>Key Works</h4>
+                    <p><strong>Y Gododdin</strong> - An early Welsh poem attributed to the bard Aneirin, commemorating the battle of Catraeth (6th century). It tells the story of warriors from the Kingdom of Gododdin (modern-day Scotland) who fought against Anglo-Saxon forces. Themes include <span class="highlight">heroism, loyalty, and the tragic consequences of war</span>.</p>
+                    
+                    <p><strong>Beowulf</strong> - An Old English epic poem about the hero Beowulf from Geatland (modern-day Sweden) who helps King Hrothgar by defeating the monster Grendel and later Grendel's mother. After becoming king, Beowulf faces a dragon, slaying it but receiving mortal wounds. The poem celebrates <span class="highlight">bravery and heroism</span>.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="period">
+            <div class="period-header">
+                <h2>Renaissance</h2>
+                <span class="years">14th century - 17th century</span>
+            </div>
+            <div class="period-content">
+                <p>The Renaissance saw an <span class="highlight">explosion of artistic and cultural activity</span> emerging from years of plague, famine, and political instability. Beginning in Italy in the 14th century and spreading across Europe, numerous discoveries in <span class="highlight">science, astrology, and geography</span> brought sweeping changes to society.</p>
+                
+                <p>A growing interest in <span class="highlight">humanist philosophy</span> caused intellectuals to revisit the classical works of antiquity. Around 1440, Johannes Gutenberg invented the <span class="highlight">printing press</span>, allowing literature to be reproduced and distributed on an unprecedented scale, producing up to 3,600 pages per workday compared to the previous hand-copying methods.</p>
+                
+                <div class="key-works">
+                    <h4>Key Works</h4>
+                    <p><strong>Don Quixote by Miguel de Cervantes</strong> - Widely considered the <span class="highlight">first example of a modern novel</span>. It follows Alonso Quixano who, after reading too many chivalric romances, becomes a knight-errant named Don Quixote. Accompanied by Sancho Panza, he sets out to revive chivalry, battling windmills he believes to be giants. The novel is a <span class="highlight">satirical exploration of idealism and reality</span>.</p>
+                    
+                    <p><strong>Shakespeare's Plays</strong> - William Shakespeare established himself as one of the greatest English language writers with plays like Romeo and Juliet and Hamlet. He wrote approximately <span class="highlight">38 plays</span>, which are still widely read and performed today.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="period">
+            <div class="period-header">
+                <h2>Enlightenment and Romanticism</h2>
+                <span class="years">17th century - Mid-19th century</span>
+            </div>
+            <div class="period-content">
+                <p>During the Enlightenment, the volume of printed material significantly increased across Europe. Society placed greater importance on <span class="highlight">reason, individuality, and education</span>. Science and philosophy flourished with great thinkers such as <span class="highlight">Thomas Hobbes, John Locke, and Jean-Jacques Rousseau</span> producing influential texts.</p>
+                
+                <p>By the end of the 18th century, European writers began to <span class="highlight">reject the rationalism of the Enlightenment in favor of sentimentality and imagination</span>. Starting in Germany in the late 1700s and emphasizing individual expression in art and individual rights in politics, <span class="highlight">Romanticism became Europe's dominant literary movement</span> by the beginning of the 19th century.</p>
+                
+                <div class="key-works">
+                    <h4>Key Enlightenment Works</h4>
+                    <p><strong>Hobbes' The Elements of Law, Natural and Politic</strong> (1640)</p>
+                    <p><strong>Locke's An Essay Concerning Human Understanding</strong> (1689)</p>
+                    <p><strong>Rousseau's The Social Contract</strong> (1762)</p>
+                    
+                    <h4>Key Romantic Works</h4>
+                    <p><strong>Les Misérables by Victor Hugo</strong> - A sweeping novel set in 19th century France following Jean Valjean, an ex-convict seeking redemption after serving 19 years for stealing bread. The novel explores themes of <span class="highlight">justice, mercy, love, and revolution</span> against the backdrop of social injustice and French uprisings.</p>
+                    
+                    <p><strong>Works by Johann Wolfgang von Goethe and William Blake</strong> - Blake's "Songs of Innocence and Experience" and other Romantic works emphasized <span class="highlight">emotions, nature, and imagination</span>.</p>
+                </div>
+                
+                <div class="facts">
+                    <h4>Interesting Fact</h4>
+                    <p>European Romanticism influenced a similar yet distinct literary movement in the United States called <span class="highlight">American Romanticism</span>, commonly referred to as the first truly American literary movement, which emphasized the newness and optimism of the Western Frontier.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="period">
+            <div class="period-header">
+                <h2>Modernism</h2>
+                <span class="years">Late 19th century - Early 20th century</span>
+            </div>
+            <div class="period-content">
+                <p>Towards the end of the 19th century, realism gave way to modernism, a literary movement that continued the realist tradition of social critique but focused on <span class="highlight">form and style of writing</span> instead of plot and content. This resulted in new narrative techniques including <span class="highlight">stream of consciousness narration, non-linear storylines, and multiple viewpoints</span>.</p>
+                
+                <p>Modernist writers explored the <span class="highlight">effects of industrialization, war, and new technologies on society</span>. Authors like James Joyce, Franz Kafka, and Virginia Woolf broke away from past literary conventions and experimented with their works' form, style, and structure.</p>
+                
+                <div class="key-works">
+                    <h4>Key Works</h4>
+                    <p><strong>Joseph Conrad's Heart of Darkness</strong></p>
+                    <p><strong>T.S. Eliot's The Wasteland</strong></p>
+                    <p><strong>James Joyce's Ulysses</strong></p>
+                    <p><strong>Virginia Woolf's Mrs. Dalloway</strong></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="period">
+            <div class="period-header">
+                <h2>Postmodernism & Contemporary</h2>
+                <span class="years">Post-1945</span>
+            </div>
+            <div class="period-content">
+                <p>The end of World War II in 1945 generally marks the start of the postmodern period. Postmodern authors use techniques like <span class="highlight">intertextuality, parody, and metafiction</span> to continue and expand literary experimentation.</p>
+                
+                <ul>
+                    <li><strong>Intertextuality</strong>: A literary convention where an author uses various techniques to refer to and connect the text to another.</li>
+                    <li><strong>Parody</strong>: An exaggerated imitation of a work or style for comedic effect and to mock or draw attention to specific elements.</li>
+                    <li><strong>Metafiction</strong>: A technique where the author draws attention to the constructed nature of the text itself.</li>
+                </ul>
+                
+                <p>In European literature, many sub-movements emerged among postmodern authors, such as the <span class="highlight">Theater of the Absurd</span>, developed in reaction to the senselessness of World War II. This movement, prominent in the 1950s and 60s, presented the belief that life was essentially meaningless.</p>
+                
+                <div class="key-works">
+                    <h4>Key Works</h4>
+                    <p><strong>Waiting for Godot by Samuel Beckett</strong> (1953) - Often cited as one of the most important works in the Theater of the Absurd movement, capturing the essential themes of <span class="highlight">existentialism and the meaninglessness of life</span>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>European Literature Reviewer | Created for Study Purposes</p>
+    </footer>
+</body>
+</html>
